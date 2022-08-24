@@ -11,5 +11,5 @@ Starter template app from scratch
 
 ## Screenshots
 <pre>
-<img src="/docs/Screenshot_20220712_110557.png" alt="ss-movie-home" width="270" height="480" />
+<img src="/docs/madscore.png" />
 </pre>
