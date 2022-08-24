@@ -4,10 +4,8 @@ import com.android.starterapp.data.CryptoData
 import com.android.starterapp.domain.entity.CryptoCoin
 
 fun List<CryptoCoin>.toCryptoData(): List<CryptoData> {
-    val cryptoDataList = mutableListOf<CryptoData>()
-
-    this.forEach {
-        val cryptoData = CryptoData(
+    return this.map {
+        CryptoData(
             it.id,
             it.symbol,
             it.name,
@@ -15,8 +13,5 @@ fun List<CryptoCoin>.toCryptoData(): List<CryptoData> {
             it.current_price,
             it.market_cap
         )
-        cryptoDataList.add(cryptoData)
     }
-
-    return cryptoDataList
 }
