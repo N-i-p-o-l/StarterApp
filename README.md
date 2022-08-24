@@ -9,7 +9,7 @@ Starter template app from scratch
 - Retrofit
 - Coil
 
-## Screenshots
+## MADScore
 <pre>
 <img src="/docs/madscore.png" />
 </pre>
